@@ -63,6 +63,7 @@ GEM
     byebug (11.1.3)
     concurrent-ruby (1.1.7)
     crass (1.0.6)
+    database_cleaner (1.8.5)
     erubi (1.9.0)
     fast_jsonapi (1.5)
       activesupport (>= 4.2)
@@ -179,6 +180,7 @@ PLATFORMS
 DEPENDENCIES
   bootsnap (>= 1.4.2)
   byebug
+  database_cleaner
   fast_jsonapi
   jbuilder (~> 2.7)
   listen (~> 3.2)

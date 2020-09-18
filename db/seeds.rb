@@ -1,5 +1,8 @@
 require 'nokogiri'
 require 'open-uri'
+require 'database_cleaner'
+
+DatabaseCleaner.clean_with(:truncation)
 
 airlines = [
 	'Alaska Airlines',
@@ -36,7 +39,7 @@ reviews =
 				title: 'Loved it!',
 				description: 'Had a great time on the flight!',
 				score: 4,
-				airline: Airline.first
+				airline: Airline.last
 			}
 		]
 	)
