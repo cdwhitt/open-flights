@@ -1,4 +1,7 @@
 {
-    "prettier.useTabs": true,
-    "prettier.trailingComma": "all"
+	"prettier.useTabs": true,
+	"prettier.trailingComma": "all",
+	"prettier.semi": false,
+	"prettier.bracketSpacing": true,
+	"editor.tabSize": 2
 }
